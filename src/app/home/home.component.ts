@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+  title = 'Sandaruwan Gamage';
+  constructor(){ }
 
+  ngOnInit()
+  {
+    
+  }
 }
