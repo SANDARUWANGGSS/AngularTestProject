@@ -1,1 +1,25 @@
-<p>user works!</p>
+<!-- <p>user works!</p> -->
+<div class="container">
+
+    <table class="table">
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>User Name</th>
+            <th>Password</th>
+            <th>First Name</th>
+            <th>City</th>
+            <th>Action</th>
+        </tr>
+        <tr *ngFor="let userdetail of userdetails">
+            <td>{{userdetail.id}}</td>
+            <td>{{userdetail.email}}</td>
+            <td>{{userdetail.username}}</td>
+            <td>{{userdetail.password}}</td>
+            <td>{{userdetail.firstname}}</td>
+            <td>{{userdetail.city}}</td>
+            <td><button type="button" class="btn btn-primary">View</button></td>
+        </tr>
+    </table>
+
+</div>
